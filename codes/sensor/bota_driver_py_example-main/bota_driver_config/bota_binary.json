@@ -4,7 +4,7 @@
         "serial_number": "SN000853",
         "communication_interface_name": "Bota_Binary",
         "communication_interface_params": {
-            "com_port": "/dev/tty.usbmodem3858313F31331",
+            "com_port": "/dev/ttyACM0",
             "baudrate": 9600
         },
         "sensor_operation_params": {
