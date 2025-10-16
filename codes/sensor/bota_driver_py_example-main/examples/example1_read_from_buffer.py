@@ -24,7 +24,7 @@ project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # config_path = os.path.join(project_root, "bota_driver_config", "bota_binary_gen0.json")
 
 # Bota Serial Binary
-# config_path = os.path.join(project_root, "bota_driver_config", "bota_binary.json")
+config_path = os.path.join(project_root, "bota_driver_config", "bota_binary.json")
 
 # Bota Serial Socket
 # config_path = os.path.join(project_root, "bota_driver_config", "bota_socket.json")
@@ -84,6 +84,7 @@ try:
         #################################
         ## YOUR CONTROL LOOP CODE HERE ##
         #################################
+        print(force)
 
         # Wait until next execution time
         next_execution_time += 1.0/READING_FREQUENCY
