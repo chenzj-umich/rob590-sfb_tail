@@ -22,6 +22,10 @@ The goals of this project are:
 ## 🧾 Project Log
 
 ### 20251016
+- Version: v1.1.1
+  - [Changed] Structure of folder updated. Git submodule added.
+
+### 20251016
 - Version: v1.1
   - [Changed] Update the config with raspberry pi local port.
   - [Done] Tested communication and output of ftsensor on raspberry pi.
