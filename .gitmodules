@@ -1,0 +1,3 @@
+[submodule "codes/bota_driver_py_example"]
+	path = codes/bota_driver_py_example
+	url = https://gitlab.com/botasys/drivers/bota_driver_py_example.git
